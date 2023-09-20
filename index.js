@@ -6,5 +6,10 @@ function bye() {
     return `bye. see you.`
 }
 
+function doSomethingImportant() {
+    return `not important.`
+}
+
 module.exports = hello('Carlos')
 module.exports = bye()
+module.exports = doSomethingImportant()
