@@ -14,12 +14,10 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - name: Install dependencies
         run: npm clean-install
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
       - name: Release
-        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.GH_TOKEN }}
-      - run: npm ci
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GH_TOKEN}}
+        run: npx semantic-release
