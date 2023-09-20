@@ -3,7 +3,7 @@ function hello(name) {
 }
 
 function bye() {
-    return `bye`
+    return `bye. see you.`
 }
 
 module.exports = hello('Carlos')
