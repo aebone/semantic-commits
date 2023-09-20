@@ -1,0 +1,27 @@
+{
+  "name": "@aebone/semantic-commit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aebone/semantic-commits.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aebone/semantic-commits/issues"
+  },
+  "homepage": "https://github.com/aebone/semantic-commits#readme",
+  "devDependencies": {
+    "semantic-release": "^22.0.0"
+  },
+  "release": { "branches": [ "main" ] }
+}

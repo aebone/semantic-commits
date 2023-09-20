@@ -1,0 +1,21 @@
+name: Build and Release
+
+on: [push]
+permissions: write-all
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ^18.17
+          registry-url: https://npm.pkg.github.com/
+      - name: Install dependencies
+        run: npm clean-install
+      - name: Release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GH_TOKEN }}
