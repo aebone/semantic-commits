@@ -1,5 +1,5 @@
-function hello() {
-    return "hello"
+function hello(name) {
+    return `hello ${name}!`
 }
 
-module.exports = hello
+module.exports = hello('Carlos')
