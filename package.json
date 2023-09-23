@@ -16,7 +16,7 @@
     "url": "https://github.com/aebone/semantic-commits/issues"
   },
   "release": {
-    "repositoryUrl": "https://github.com/aebone/semantic-commits-app.git",
+    "repositoryUrl": "https://github.com/aebone/semantic-commits.git",
     "debug": "true",
     "plugins": [
       "@semantic-release/commit-analyzer",
