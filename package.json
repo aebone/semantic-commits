@@ -16,9 +16,6 @@
     "url": "https://github.com/aebone/semantic-commits/issues"
   },
   "release": {
-    "branches": [
-      "main"
-    ],
     "repositoryUrl": "https://github.com/aebone/semantic-commits-app.git",
     "debug": "true",
     "plugins": [
@@ -44,9 +41,5 @@
         }
       ]
     ]
-  },
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1"
   }
 }
