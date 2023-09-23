@@ -4,7 +4,7 @@ function hello(name) {
 }
 
 function bye() {
-    return `bye. see you.`
+    return `bye. see you .-..`
 }
 
 function doSomethingImportant() {
