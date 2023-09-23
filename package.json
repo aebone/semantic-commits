@@ -10,8 +10,7 @@
     "url": "https://github.com/aebone/semantic-commits.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
   "bugs": {
     "url": "https://github.com/aebone/semantic-commits/issues"
