@@ -1,3 +1,4 @@
+/*
 function hello(name) {
     return `hello ${name}! you are cute!`
 }
@@ -13,3 +14,4 @@ function doSomethingImportant() {
 module.exports = hello('Carlos')
 module.exports = bye()
 module.exports = doSomethingImportant()
+*/
