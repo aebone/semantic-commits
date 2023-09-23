@@ -1,6 +1,6 @@
 {
   "name": "@aebone/semantic-commit",
-  "version": "7.0.5",
+  "version": "7.0.6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

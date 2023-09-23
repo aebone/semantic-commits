@@ -1,3 +1,10 @@
+## [7.0.6](https://github.com/aebone/semantic-commits/compare/v7.0.5...v7.0.6) (2023-09-23)
+
+
+### Bug Fixes
+
+* **pkg:** comment everything pls ([0d46504](https://github.com/aebone/semantic-commits/commit/0d465045dd00020d86f238cb344fd6a530158699))
+
 ## [7.0.5](https://github.com/aebone/semantic-commits/compare/v7.0.4...v7.0.5) (2023-09-23)
 
 
