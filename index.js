@@ -7,7 +7,7 @@ function bye() {
 }
 
 function doSomethingImportant() {
-    return `not important.`
+    return `not important. kidding.`
 }
 
 module.exports = hello('Carlos')
